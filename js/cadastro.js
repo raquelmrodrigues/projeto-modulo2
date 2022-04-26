@@ -4,6 +4,7 @@ const preencherForm = (endereco) => {
     document.getElementById('inputAddress').value = endereco.logradouro;
     document.getElementById('Cidade').value = endereco.localidade;
     document.getElementById('inputState').value = endereco.uf;
+    document.getElementById('bairro').value = endereco.bairro;
 }
 
 const cepValido = (cep) => cep.length == 8;
