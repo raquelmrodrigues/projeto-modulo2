@@ -20,13 +20,30 @@ body {
 }
 
 .imagem-carrossel-dois{
-    object-fit: cover;
-    object-position: 0 20%;
-    height: 90vh;
+  object-fit: cover;
+  object-position: 0 20%;
+  height: 90vh;
 }
 
 .imagem-carrossel-tres{
     object-fit: cover;
     object-position: 0 30%;
     height: 90vh;
+}
+
+p{
+  font-family: Verdana;
+  font-size: 18px;
+  text-align: center;
+  margin-left: 9%;
+  margin-right: 9%;
+}
+
+h1{
+  text-align: center;
+  font-family: Verdana;
+}
+
+h4{
+  text-align: center;
 }
